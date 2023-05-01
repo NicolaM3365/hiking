@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: #4f7b30;
+    color: #330000;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+header {
+    background-image: url(../images/powerscourtlogo.gif);
+    width: 500;
+    padding: .5em 1em .5em 6em;
+    background-repeat:repeat-x;
+    background-color: #4f7b30;
+
+}
+
+h2 {padding: 50px;
+
+}
+body {
+    background-color: #4f7b30;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: -30;
+    padding: 0;
+
+}
+
+#Nav {
+    margin-top: 20px;
+    background-color: #4f7b30;
+    color: #4f7b30;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+    background-color:#4f7b30 ;
+}
+
+nav a {
+    text-decoration: solid;
+}
+
+nav a:link {
+    color: #330000;
+}
+
+nav a:visited {
+    color: #805030;
+}
+
+nav a:hover {
+    color: #3F4632;
+}
