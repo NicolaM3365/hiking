@@ -20,6 +20,7 @@ body {
 }
 
 
+
 main {
   margin: 3rem;
 }
@@ -34,12 +35,19 @@ main {
 }
 
 .introduction {
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  gap: 2rem;
+    
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
 }
 
+   .nav-image {
+    background-size:contain
+       
+   }
+
+  
     
