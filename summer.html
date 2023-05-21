@@ -5,63 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hiking website</title>
-    <link href="css/hiking.css" rel="stylesheet">
+    <title>HILL</title>
+    <link rel="stylesheet" href="css/hiking_in_ireland.css">
 </head>
-<!-- included above as a shortcut shift ! tab except for css -->
 
 <body>
-    <div class="container">
+
+    <header class="home-hero">
+        <nav class="head-navigation">
+            <a class="site-logo" href="index.html">HILL</a>
+            <!-- <img src="images/mountaintop.jpg" alt="top" class="nav-image"> -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="home-hero-container">
+            <h1 class="home-hero-container_title text_centre">Hiking in Ireland</h1>
+            <p class="home-hero-container_subtitle text_centre">Same walk in different seasons</p>
+            <a class="home-hero-container_book-button"
+                href="https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.discoverireland.ie%2Fwhats-nearby&data=05%7C01%7CNicola.Mitchell%40lifescientific.com%7C009c8083be484fad21be08db53e644be%7C4df8e3254382496a86e8a9e4fe11f10d%7C0%7C0%7C638196020683660833%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VCFbyrlZ4MKIoMExOG9lEPujSHpErrdvXGtmH9U7JPs%3D&reserved=0">what's
+                nearby</a>
+        </div>
+    </header>
 
 
-        <div class="header">
-            <header>
-                <h1>Djouce Mountain Hiking:Solo adventures</h1>
-            </header>
-            <nav>
-                <ul id="Nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="summer.html">Summer</a></li>
-                    <li><a href="winter.html">Winter</a></li>
-                    <li><a href="nature.html">Nature</a></li>
+
+
+    <main>
+        <!-- <section class="dark">
+            <div class="introduction">
+                <h3 class="section-header">introduction</h3>
+                <p class="section-text">How we got started <br> ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu.
+                    Purus
+                    gravida quis blandit turpis. Nec ultrices dui sapien eget mi.</p>
+                <img src="images/snowdog.jpg" alt="snowdog">
+            </div>
+        </section> -->
+
+
+        <section class="light">
+            <div class="section-header">
+                <h2 class="section-header__title text_center">Summertime</h2>
+                <p class="section-header__subtitle text_center">Irish Summertime in case you're wondering</p>
+            </div>
+
+            <div class="news-cards-container">
+                <article class="news-card">
+                    <img class="news-card__image" src="images/tobysheep.jpg" alt="tobysheep">
+                    <h2 class="news-card__title">Milestones</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/arid.jpg" alt="aridscene">
+                    <h2 class="news-card__title">Milestones</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/sunset.jpg" alt="sunset">
+                    <h2 class="news-card__title">Milestones</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/beachdog.jpg" alt="">
+                    <h2 class="news-card__title">Milestones</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/tiedup.jpg" alt="">
+                    <h2 class="news-card__title">Milestones</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/ispy.jpg" alt="">
+                    <h2 class="news-card__title">Milestones</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="home-footer">
+        <nav class="foot-navigation">
+            <a class="site-logo" href="index.html">HILL</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-secondary">
+            <p class="copyright-notice">&copy; Nicola Mitchell 2023</p>
+            <nav class="policy-nav">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
                 </ul>
             </nav>
         </div>
-
-
-        <div class="galler-container">
-
-            <img src="images/landscape.jpg" alt="landscape" width="500" height="300">
-            <img src="images/mountaintop.jpg" alt="mountaintop" width="500" height="300">
-            <img src="images/tobysheep.jpg" alt="mountaintop" width="500" height="300">
-        </div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-    <p>reason to hike - a source of inspirational quotes according to <a href="https://www.w3.org/WAI/">link</a></p>
-    <blockquote>
-        "The best view comes after the hardest climb"
-        "Somewhere between the bottom of the climb and the summit is the answer to the mystery why we climb."- Greg
-        Child
-    </blockquote>
-    <p> Looking for a challenging workout that also connects you with nature? Look no further than Djouce Mountain
-        in Co.
-        Wicklow, Ireland. With steep inclines and rugged terrain, hiking Djouce Mountain is a true test of physical
-        fitness,
-        while the stunning views provide a sense of tranquility and escape from everyday stresses. Come and
-        experience the magic
-        of this mystical mountain for yourself!</p>
-    
-    </div>
+    </footer>
 </body>
-
 </html>
