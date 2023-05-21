@@ -11,91 +11,165 @@
 
 <body>
 
-    <header>
-        <nav class="navigation-header-label">
-            <a class="site-logo" href="home.html">site-logo</a>
-            <img src="images/mountaintop.jpg" alt="top" class="nav-image">
+    <header class="home-hero">
+        <nav class="head-navigation">
+            <a class="site-logo" href="index.html">HILL</a>
+            <!-- <img src="images/mountaintop.jpg" alt="top" class="nav-image"> -->
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="summer.html">Summer</a></li>
                 <li><a href="winter.html">Winter</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
-        <h1>Hiking in Ireland</h1>
-        <h2>Same walk in different seasons</h2>
-        <a class="map"
-            href="https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.discoverireland.ie%2Fwhats-nearby&data=05%7C01%7CNicola.Mitchell%40lifescientific.com%7C009c8083be484fad21be08db53e644be%7C4df8e3254382496a86e8a9e4fe11f10d%7C0%7C0%7C638196020683660833%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VCFbyrlZ4MKIoMExOG9lEPujSHpErrdvXGtmH9U7JPs%3D&reserved=0">what's
-            nearby</a>
-
+        <div class="home-hero-container">
+            <h1 class="home-hero-container_title text_centre">Hiking in Ireland</h1>
+            <p class="home-hero-container_subtitle text_centre">Same walk in different seasons</p>
+            <a class="home-hero-container_map-link"
+                href="https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.discoverireland.ie%2Fwhats-nearby&data=05%7C01%7CNicola.Mitchell%40lifescientific.com%7C009c8083be484fad21be08db53e644be%7C4df8e3254382496a86e8a9e4fe11f10d%7C0%7C0%7C638196020683660833%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VCFbyrlZ4MKIoMExOG9lEPujSHpErrdvXGtmH9U7JPs%3D&reserved=0">what's
+                nearby</a>
+        </div>
     </header>
+
+
+
+
     <main>
-        <section class="introduction">
-            <h3 class="section-header">introduction</h3>
-            <p class="section-text">How we got started <br> ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu. Purus
-                gravida quis blandit turpis. Nec ultrices dui sapien eget mi.</p>
-            <img src="images/snowdog.jpg" alt="snowdog">
+        <!-- <section class="dark">
+            <div class="introduction">
+                <h3 class="section-header">introduction</h3>
+                <p class="section-text">How we got started <br> ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu.
+                    Purus
+                    gravida quis blandit turpis. Nec ultrices dui sapien eget mi.</p>
+                <img src="images/snowdog.jpg" alt="snowdog">
+            </div>
+        </section> -->
+
+        <section class="dark">
+            <div class="itinerary-container">
+                <div class="section-header dark">
+                    <h2 class="section-header__title">Wicklow mountains tour from Dublin</h2>
+                    <p class="section-header__subtitle">If you are fed up walking the same walk</p>
+                </div>
+                <table class="itinerary-table">
+                    <tr>
+                        <th>Schedule</th>
+                        <th>Sights</th>
+                    </tr>
+                    <tr>
+                        <td>First stop</td>
+                        <td>Sandycove beach</td>
+                    </tr>
+                    <tr>
+                        <td>Nature break</td>
+                        <td>Avoca Handweavers</td>
+                    </tr>
+                    <tr>
+                        <td>Photo stop</td>
+                        <td>Lough Bray, near Glencree</td>
+                    </tr>
+                    <tr>
+                        <td>Narrow road drive</td>
+                        <td>Sallygap</td>
+                    </tr>
+                    <tr>
+                        <td>Lunch</td>
+                        <td>Laragh</td>
+                    </tr>
+                    <tr>
+                        <td>Explore the ruins</td>
+                        <td>Glendalough</td>
+                    </tr>
+                    <tr>
+                        <td>Home</td>
+                        <td>Dinner in Dublin</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="light">
+            <div class="section-header">
+                <h2 class="section-header__title textb_center">Summertime</h2>
+                <p class="section-header__subtitle textb_center">Irish Summertime in case you're wondering</p>
+            </div>
+
+            <div class="news-cards-container">
+                <article class="news-card">
+                    <img class="news-card__image" src="images/20220702_123140.jpg" alt="">
+                    <h2 class="news-card__title">Live Event</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/20230429_111919.jpg" alt="">
+                    <h2 class="news-card__title">Live Event</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/20230429_111923.jpg" alt="">
+                    <h2 class="news-card__title">Live Event</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+                <article class="news-card">
+                    <img class="news-card__image" src="images/20230429_112025.jpg" alt="">
+                    <h2 class="news-card__title">Live Event</h2>
+                    <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+                        aliquam nisi
+                        adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est
+                        illum
+                        quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
+                    <a href="#" class="news-card__read-more-button">Read More</a>
+                </article>
+
+            </div>
         </section>
 
 
-        <section>
-            <div class="grid-container">
+
+
+
+        <section class="gallery-container">
+            <div class="gallery-container-section-head">
                 <h3 class="section-head">Gallery</h3>
                 <p class="section-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu.
                     Purus gravida quis blandit turpis. Nec ultrices dui sapien eget mi.</p>
-                <img src="images/mountaintop.jpg" alt="mountaintop">
+            </div>
+            
+            <div class="gallery-image">
                 <h3>Top of the mountain</h3>
                 <p class="gallery-image-text">ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <img src="https://fastly.picsum.photos/id/196/1200/800.jpg?hmac=ZJoGspwsiHnwI3qMmomn2Q-fySCa4VFPv8SbqI-mUr8"
                     alt="safety">
+                    <h3>Top of the mountain</h3>
+                    <p class="gallery-image-text">ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <img src="https://fastly.picsum.photos/id/511/1200/800.jpg?hmac=eBRkYU7nEWIp4IjaSefykO5e6f0lGatqtc6eMiORpPE"
                     alt="">
+                    <h3>Top of the mountain</h3>
+                    <p class="gallery-image-text">ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <img src="images/mountainpanorama.gif" alt="panorama">
-                <img src="images/snowdog.jpg" alt="snowdog">
-                <img src="images/20230429_111911.jpg" alt="">
+                <h3>Top of the mountain</h3>
+                <p class="gallery-image-text">ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <img src="images/mountaintop.jpg" alt="mountaintop">
             </div>
-        </section>
 
-        <section>
-            <h3>Wicklow mountains tour from Dublin</h3>
-            <p>If you are fed up walking the same walk</p>
-            <table class="itinerary-table">
-                <tr>
-                    <th>Schedule</th>
-                    <th>Sights</th>
-                </tr>
-                <tr>
-                    <td>First stop</td>
-                    <td>Sandycove beach</td>
-                </tr>
-                <tr>
-                    <td>Nature break</td>
-                    <td>Avoca Handweavers</td>
-                </tr>
-                <tr>
-                    <td>Photo stop</td>
-                    <td>Lough Bray, near Glencree</td>
-                </tr>
-                <tr>
-                    <td>Narrow road drive</td>
-                    <td>Sallygap</td>
-                </tr>
-                <tr>
-                    <td>Lunch</td>
-                    <td>Laragh</td>
-                </tr>
-                <tr>
-                    <td>Explore the ruins</td>
-                    <td>Glendalough</td>
-                </tr>
-                <tr>
-                    <td>Home</td>
-                    <td>Dinner in Dublin</td>
-                </tr>
-            </table>
         </section>
 
         <section>
@@ -123,26 +197,30 @@
 
             </form>
         </section>
+
     </main>
-
     <footer class="home-footer">
-        <a href="logo" title="logo">logo</a>
-
-        <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna
-            aliqua. Sed enim ut sem viverra.</p>
-        <nav>
+        <nav class="foot-navigation">
+            <a class="site-logo" href="index.html">HILL</a>
             <ul>
-                <li><a href="home.html">home</a></li>
-                <li><a href="summer.html">summer</a></li>
-                <li><a href="winter.html">winter</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
+        <div class="footer-secondary">
+            <p class="copyright-notice">&copy; Nicola Mitchell 2023</p>
+            <nav class="policy-nav">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
-    <footer class="home-footer">&copy; Nicola Mitchell 2023</footer>
 
 </body>
 
